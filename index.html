@@ -1,0 +1,940 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Realms of Exquisite Commercial Cleaning | Free Quote in 60 Seconds</title>
+  <meta name="description" content="Commercial cleaning for offices, warehouses, and facilities in Houston. Reliable crews, documented checklists, after-hours available. Get a fast quote." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Realms of Exquisite Commercial Cleaning" />
+  <meta property="og:description" content="Office, warehouse, and facility cleaning. Documented checklists. After-hours options. Get a free quote." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root{
+      --bg:#070b14;
+      --panel: rgba(255,255,255,.06);
+      --panel2: rgba(255,255,255,.04);
+      --stroke: rgba(255,255,255,.12);
+      --text:#eaf0ff;
+      --muted:#a9b7d6;
+      --accent:#44a0ff;
+      --accent2:#45e6b8;
+      --danger:#ff5c7a;
+      --ok:#45e6b8;
+      --radius:18px;
+      --max:1120px;
+      --shadow: 0 18px 55px rgba(0,0,0,.45);
+      --shadow2: 0 10px 30px rgba(68,160,255,.18);
+      --shadow3: 0 12px 30px rgba(69,230,184,.12);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background:
+        radial-gradient(900px 520px at 12% -10%, rgba(68,160,255,.28), transparent 60%),
+        radial-gradient(850px 520px at 88% 10%, rgba(69,230,184,.22), transparent 55%),
+        radial-gradient(700px 520px at 50% 120%, rgba(255,92,122,.10), transparent 55%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
+    a{color:inherit; text-decoration:none}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
+    .sr{position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden}
+
+    /* Top bar */
+    .topbar{
+      position:sticky; top:0; z-index:50;
+      backdrop-filter: blur(14px);
+      background: rgba(7,11,20,.72);
+      border-bottom:1px solid var(--stroke);
+    }
+    .nav{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:14px; padding:14px 0;
+    }
+    .brand{display:flex; align-items:center; gap:10px; min-width: 240px}
+    .mark{
+      width:40px; height:40px; border-radius:14px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: var(--shadow2);
+      flex:0 0 auto;
+      position:relative;
+    }
+    .mark:after{
+      content:"";
+      position:absolute; inset:10px;
+      border-radius:10px;
+      border:1px solid rgba(7,11,20,.25);
+      background: rgba(255,255,255,.14);
+      filter: blur(.2px);
+    }
+    .brandTitle{font-weight:900; letter-spacing:.2px; font-size:14px}
+    .brandSub{font-size:12px; color:var(--muted); margin-top:2px}
+
+    .navlinks{display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:center}
+    .navlinks a{
+      font-size:14px; color:#dbe6ff; opacity:.92;
+      padding:8px 10px; border-radius:14px;
+      transition: background .15s ease, transform .08s ease;
+    }
+    .navlinks a:hover{background: rgba(255,255,255,.06)}
+    .navlinks a:active{transform: translateY(1px)}
+
+    .ctaRow{display:flex; gap:10px; align-items:center; justify-content:flex-end}
+    .phone{
+      font-weight:900; font-size:14px;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.04);
+      white-space:nowrap;
+    }
+    .btn{
+      border:1px solid rgba(68,160,255,.35);
+      background: rgba(68,160,255,.12);
+      color: var(--text);
+      padding:10px 14px;
+      border-radius: 14px;
+      font-weight:900;
+      font-size:14px;
+      cursor:pointer;
+      transition: transform .08s ease, background .2s ease, box-shadow .2s ease;
+      white-space:nowrap;
+      display:inline-flex; align-items:center; gap:8px;
+    }
+    .btn:hover{background: rgba(68,160,255,.18)}
+    .btn:active{transform: translateY(1px)}
+    .btnSolid{
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border:0;
+      color:#06101c;
+      box-shadow: var(--shadow2), var(--shadow3);
+    }
+    .btnGhost{
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.04);
+    }
+    .btnGhost:hover{background: rgba(255,255,255,.07)}
+
+    /* Hero */
+    header.hero{padding:34px 0 10px}
+    .heroGrid{
+      display:grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap:16px;
+      align-items:stretch;
+    }
+    .panel{
+      border:1px solid var(--stroke);
+      background: var(--panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    .heroPanel{min-height: 360px;}
+    .heroBg{
+      position:absolute; inset:0;
+      background:
+        linear-gradient(135deg, rgba(7,11,20,.20), rgba(7,11,20,.92)),
+        url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=70");
+      background-size:cover;
+      background-position:center;
+      filter:saturate(1.05);
+      transform: scale(1.02);
+    }
+    .heroContent{
+      position:relative;
+      padding:26px;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    h1{margin:0; font-size:46px; line-height:1.03; letter-spacing:-.5px}
+    .sub{margin:0; color:var(--muted); font-size:16px; max-width:62ch}
+    .pillRow{display:flex; gap:10px; flex-wrap:wrap; margin-top:2px}
+    .pill{
+      font-size:13px;
+      padding:7px 10px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color:#e5eeff;
+    }
+    .heroActions{display:flex; gap:10px; flex-wrap:wrap; margin-top:4px}
+    .micro{
+      color: rgba(234,240,255,.78);
+      font-size:12px;
+      display:flex; gap:8px; align-items:center; flex-wrap:wrap;
+      margin-top:6px;
+    }
+    .micro b{color:#ffffff}
+    .dot{
+      width:5px; height:5px; border-radius:999px;
+      background: rgba(255,255,255,.35);
+      display:inline-block;
+    }
+
+    /* Side card */
+    .side{
+      padding:16px;
+      display:flex; flex-direction:column; gap:12px;
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.04));
+    }
+    .side h3{margin:0; font-size:18px}
+    .side p{margin:0; color:var(--muted); font-size:14px}
+    .check{display:flex; gap:10px; align-items:flex-start; color:#dbe6ff; font-size:14px}
+    .checkIcon{
+      margin-top:5px;
+      width:12px; height:12px;
+      border-radius:4px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 10px 18px rgba(69,230,184,.15);
+      flex:0 0 auto;
+    }
+    .side .btn{justify-content:center}
+
+    /* Sections */
+    section{padding:18px 0}
+    .sectionTitle{
+      display:flex; align-items:flex-end; justify-content:space-between;
+      gap:14px; margin-bottom:12px;
+    }
+    h2{margin:0; font-size:26px; letter-spacing:-.2px}
+    .hint{color:var(--muted); font-size:14px}
+    .grid3{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px}
+    .grid2{display:grid; grid-template-columns: repeat(2, 1fr); gap:14px}
+
+    .card{
+      border:1px solid var(--stroke);
+      background: var(--panel);
+      border-radius: var(--radius);
+      padding:16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.25);
+    }
+    .card h3{margin:0 0 8px; font-size:18px}
+    .card p{margin:0; color:var(--muted); font-size:14px}
+    .card .mini{margin-top:10px; display:flex; gap:10px; flex-wrap:wrap}
+    .badge{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.04);
+      color:#dbe6ff;
+      white-space:nowrap;
+    }
+
+    .serviceCard{position:relative; overflow:hidden;}
+    .serviceCard:before{
+      content:"";
+      position:absolute; inset:-2px;
+      background:
+        radial-gradient(260px 180px at 20% 0%, rgba(68,160,255,.20), transparent 60%),
+        radial-gradient(240px 160px at 80% 0%, rgba(69,230,184,.16), transparent 60%);
+      pointer-events:none;
+    }
+    .serviceCard > *{position:relative}
+    .link{
+      display:inline-flex; gap:8px; align-items:center;
+      margin-top:10px;
+      font-weight:900;
+      color:#e8f2ff;
+      padding:8px 10px;
+      border-radius:14px;
+      background: rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.12);
+      width: fit-content;
+    }
+    .link:hover{background: rgba(255,255,255,.08)}
+
+    /* Icon row */
+    .iconRow{display:grid; grid-template-columns: repeat(6, 1fr); gap:10px}
+    .iconItem{
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      border-radius: 16px;
+      padding:12px;
+      text-align:center;
+      font-size:13px;
+      color:#dbe6ff;
+      min-height:74px;
+      display:flex; align-items:center; justify-content:center;
+    }
+
+    /* Process */
+    .step{
+      display:flex; gap:12px; align-items:flex-start;
+      padding:14px;
+      border-radius: var(--radius);
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+    }
+    .num{
+      width:34px; height:34px; border-radius:12px;
+      display:flex; align-items:center; justify-content:center;
+      background: linear-gradient(135deg, rgba(68,160,255,.24), rgba(69,230,184,.20));
+      border:1px solid rgba(255,255,255,.14);
+      font-weight:900;
+      flex:0 0 auto;
+    }
+    .step h4{margin:0; font-size:16px}
+    .step p{margin:4px 0 0; color:var(--muted); font-size:14px}
+
+    /* Testimonials */
+    .quote{border-left:3px solid rgba(69,230,184,.75); padding-left:12px;}
+    .quote p{margin:0; color:#dbe6ff}
+    .quote .who{margin-top:8px; color:var(--muted); font-size:13px}
+
+    /* FAQ */
+    details{
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      border-radius: var(--radius);
+      padding:12px 14px;
+    }
+    details summary{
+      cursor:pointer;
+      font-weight:900;
+      list-style:none;
+      display:flex; justify-content:space-between; align-items:center;
+      gap:10px;
+    }
+    details summary::-webkit-details-marker{display:none}
+    .chev{
+      width:28px; height:28px; border-radius:12px;
+      display:flex; align-items:center; justify-content:center;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      flex:0 0 auto;
+    }
+    details[open] .chev{transform: rotate(180deg)}
+    details p{margin:10px 0 0; color:var(--muted); font-size:14px}
+
+    /* Quote form */
+    .formGrid{
+      display:grid; grid-template-columns: 1fr 1fr; gap:14px; margin-top:12px;
+    }
+    label{font-size:12px; color:var(--muted); display:block; margin-bottom:6px}
+    input, select, textarea{
+      width:100%;
+      padding:11px 12px;
+      border-radius: 14px;
+      border:1px solid rgba(255,255,255,.14);
+      background: rgba(7,11,20,.45);
+      color: var(--text);
+      outline:none;
+    }
+    textarea{min-height: 120px; resize: vertical}
+    input:focus, select:focus, textarea:focus{border-color: rgba(68,160,255,.55); box-shadow: 0 0 0 4px rgba(68,160,255,.12)}
+    .full{grid-column: 1 / -1}
+    .formFooter{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    .note{font-size:12px; color: rgba(234,240,255,.72)}
+    .toast{
+      display:none;
+      margin-left:auto;
+      font-size:13px;
+      color: rgba(234,240,255,.85);
+      padding:8px 10px;
+      border-radius: 14px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.06);
+    }
+    .toast.ok{border-color: rgba(69,230,184,.35)}
+    .toast.bad{border-color: rgba(255,92,122,.35)}
+
+    /* Footer */
+    footer{
+      padding:22px 0 30px;
+      border-top:1px solid var(--stroke);
+      color: var(--muted);
+      font-size:13px;
+    }
+    .footerGrid{
+      display:grid; grid-template-columns: 1.2fr .8fr; gap:14px; align-items:start;
+    }
+    .miniLinks{display:flex; gap:10px; flex-wrap:wrap}
+    .miniLinks a{
+      padding:7px 10px;
+      border-radius: 14px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.04);
+    }
+    .miniLinks a:hover{background: rgba(255,255,255,.07)}
+
+    /* Mobile */
+    @media (max-width: 980px){
+      .heroGrid{grid-template-columns: 1fr}
+      .navlinks{display:none}
+      .grid3{grid-template-columns: 1fr}
+      .grid2{grid-template-columns: 1fr}
+      .iconRow{grid-template-columns: repeat(3, 1fr)}
+      .formGrid{grid-template-columns: 1fr}
+      .footerGrid{grid-template-columns: 1fr}
+      h1{font-size:38px}
+      .ctaRow .phone{display:none}
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="wrap">
+      <div class="nav">
+        <a class="brand" href="#top" aria-label="Home">
+          <div class="mark" aria-hidden="true"></div>
+          <div>
+            <div class="brandTitle">Realms of Exquisite Commercial Cleaning</div>
+            <div class="brandSub">Offices • Warehouses • Facilities</div>
+          </div>
+        </a>
+
+        <nav class="navlinks" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#industries">Industries</a>
+          <a href="#why">Why Us</a>
+          <a href="#process">Process</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#quote">Free Quote</a>
+        </nav>
+
+        <div class="ctaRow">
+          <a class="phone" href="tel:+12813308004">281 330 8004</a>
+          <a class="btn btnSolid" href="#quote" aria-label="Get a free quote">
+            <span>Get a Free Quote</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <div class="wrap">
+      <div class="heroGrid">
+        <div class="panel heroPanel">
+          <div class="heroBg" aria-hidden="true"></div>
+          <div class="heroContent">
+            <h1>Commercial cleaning that stays consistent.</h1>
+            <p class="sub">
+              We clean offices, warehouses, and facilities across North Houston with documented checklists,
+              reliable crews, and optional after-hours service. Get a quote fast—no nonsense.
+            </p>
+
+            <div class="pillRow" aria-label="Highlights">
+              <div class="pill">Insured & bonded</div>
+              <div class="pill">Background-checked staff</div>
+              <div class="pill">Checklists + inspections</div>
+              <div class="pill">After-hours available</div>
+            </div>
+
+            <div class="heroActions">
+              <a class="btn btnSolid" href="#quote"><span>Request a Quote</span><span aria-hidden="true">→</span></a>
+              <a class="btn btnGhost" href="#services">View Services</a>
+            </div>
+
+            <div class="micro" aria-label="Trust line">
+              <span><b>Same crew</b> where possible</span><span class="dot" aria-hidden="true"></span>
+              <span><b>Quality checks</b> on schedule</span><span class="dot" aria-hidden="true"></span>
+              <span><b>Flexible contracts</b> available</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="panel side" aria-label="What you get">
+          <h3>What you get</h3>
+          <p>Built for businesses that need reliability, not “we’ll try.”</p>
+
+          <div class="check"><span class="checkIcon" aria-hidden="true"></span><span>Clear scope + documented checklist</span></div>
+          <div class="check"><span class="checkIcon" aria-hidden="true"></span><span>Nightly/weekly schedules tailored to traffic</span></div>
+          <div class="check"><span class="checkIcon" aria-hidden="true"></span><span>Optional photo-proof inspections</span></div>
+          <div class="check"><span class="checkIcon" aria-hidden="true"></span><span>Consumables & restocking (optional)</span></div>
+
+          <a class="btn btnSolid" href="#quote">Get Pricing</a>
+          <a class="btn btnGhost" href="tel:+12813308004">Call 281 330 8004</a>
+
+          <p class="note">Fast replies during business hours. After-hours cleanings by schedule.</p>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>Services</h2>
+        <div class="hint">Pick what you need—then we build the checklist.</div>
+      </div>
+
+      <div class="grid3">
+        <div class="card serviceCard">
+          <h3>Office Cleaning</h3>
+          <p>Restrooms, breakrooms, trash, dusting, touchpoints, floors—done to a documented standard.</p>
+          <div class="mini">
+            <span class="badge">Nightly</span><span class="badge">Weekly</span><span class="badge">After-hours</span>
+          </div>
+          <a class="link" href="#quote">Get a quote <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="card serviceCard">
+          <h3>Warehouse & Industrial</h3>
+          <p>High-traffic zones, docks, offices, and common areas—safety-first cleaning for facilities.</p>
+          <div class="mini">
+            <span class="badge">OSHA-aware</span><span class="badge">Large SF</span><span class="badge">Flexible</span>
+          </div>
+          <a class="link" href="#quote">Get a quote <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="card serviceCard">
+          <h3>Floor Care</h3>
+          <p>Auto-scrub, strip & wax, burnishing, grout cleaning, mats—scheduled or one-time.</p>
+          <div class="mini">
+            <span class="badge">VCT</span><span class="badge">Tile & grout</span><span class="badge">Concrete</span>
+          </div>
+          <a class="link" href="#quote">Get a quote <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="card serviceCard">
+          <h3>Day Porter</h3>
+          <p>On-site support during business hours: restrooms, spills, trash runs, entryways.</p>
+          <div class="mini">
+            <span class="badge">Busy sites</span><span class="badge">Retail-ready</span><span class="badge">Fast response</span>
+          </div>
+          <a class="link" href="#quote">Get a quote <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="card serviceCard">
+          <h3>Post-Construction</h3>
+          <p>Dust control, detail wipe-downs, glass, floors, and “ready for occupancy” finishing.</p>
+          <div class="mini">
+            <span class="badge">Final clean</span><span class="badge">Punch-list</span><span class="badge">Fast turn</span>
+          </div>
+          <a class="link" href="#quote">Get a quote <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="card serviceCard">
+          <h3>Move-In / Move-Out</h3>
+          <p>Turnover cleans for tenants, property management, suites, and small commercial spaces.</p>
+          <div class="mini">
+            <span class="badge">Turnovers</span><span class="badge">Suites</span><span class="badge">One-time</span>
+          </div>
+          <a class="link" href="#quote">Get a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section id="industries">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>Industries we serve</h2>
+        <div class="hint">We adapt scope + frequency to your operation.</div>
+      </div>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Medical & Dental</h3>
+          <p>Touchpoint focus, restrooms, operatories and waiting areas—consistent routines and reporting.</p>
+          <div class="mini"><span class="badge">Touchpoints</span><span class="badge">Restrooms</span></div>
+        </div>
+        <div class="card">
+          <h3>Property Management</h3>
+          <p>Common areas, corridors, leasing offices, turnovers—cleanliness that protects occupancy.</p>
+          <div class="mini"><span class="badge">Common areas</span><span class="badge">Turnovers</span></div>
+        </div>
+        <div class="card">
+          <h3>Manufacturing</h3>
+          <p>Traffic lanes, breakrooms, office zones—cleaning aligned with safety and site rules.</p>
+          <div class="mini"><span class="badge">Safety-first</span><span class="badge">Large SF</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="why">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>Why businesses choose us</h2>
+        <div class="hint">Consistency beats “cheap” every time.</div>
+      </div>
+
+      <div class="iconRow" aria-label="Differentiators">
+        <div class="iconItem">Insured & Bonded</div>
+        <div class="iconItem">Background Checks</div>
+        <div class="iconItem">Documented Checklists</div>
+        <div class="iconItem">Quality Inspections</div>
+        <div class="iconItem">After-Hours Options</div>
+        <div class="iconItem">Satisfaction Guarantee</div>
+      </div>
+
+      <div style="height:12px"></div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Quality you can verify</h3>
+          <p>
+            Every site gets a checklist that matches your facility. We can run scheduled inspections and provide
+            notes or photo proof—so you’re not guessing what happened after hours.
+          </p>
+          <div class="mini"><span class="badge">Checklists</span><span class="badge">Inspections</span><span class="badge">Reporting</span></div>
+        </div>
+        <div class="card">
+          <h3>No surprises</h3>
+          <p>
+            Clear scope, clear schedule, clear pricing. Add-ons are quoted before we do them. If something isn’t right,
+            we fix it fast.
+          </p>
+          <div class="mini"><span class="badge">Clear scope</span><span class="badge">Fast fixes</span><span class="badge">Accountability</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>How it works</h2>
+        <div class="hint">Simple, fast, and built around your facility.</div>
+      </div>
+
+      <div class="grid2">
+        <div class="step">
+          <div class="num">1</div>
+          <div>
+            <h4>Tell us about your space</h4>
+            <p>Square footage, facility type, schedule, and any problem areas. We’ll ask only what we need.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">2</div>
+          <div>
+            <h4>We build your checklist</h4>
+            <p>A scope that matches your operation—restrooms, breakrooms, touchpoints, floors, specialty areas.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">3</div>
+          <div>
+            <h4>Start service</h4>
+            <p>We schedule the clean, assign staff, and lock in expectations. After-hours available.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">4</div>
+          <div>
+            <h4>Quality checks</h4>
+            <p>We do routine inspections. If something’s off, we fix it fast—no long email chains.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="height:10px"></div>
+
+      <div class="card" style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+        <div>
+          <h3 style="margin:0 0 6px;">Need a one-time deep clean this week?</h3>
+          <p style="margin:0; color:var(--muted);">Request a quote and we’ll give you options.</p>
+        </div>
+        <a class="btn btnSolid" href="#quote">Get a Free Quote →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>What clients say</h2>
+        <div class="hint">Trust is built on follow-through.</div>
+      </div>
+
+      <div class="grid3">
+        <div class="card quote">
+          <p>“They’re the first cleaning crew we haven’t had to babysit. The checklist + inspections changed everything.”</p>
+          <div class="who">— Office Manager, Houston</div>
+        </div>
+        <div class="card quote">
+          <p>“We run a warehouse. They understood safety rules and got us on a schedule that actually works.”</p>
+          <div class="who">— Ops Lead, Tomball</div>
+        </div>
+        <div class="card quote">
+          <p>“Fast quote, clear scope, no surprises. When we asked for an add-on, it was priced before it happened.”</p>
+          <div class="who">— Property Manager, Spring</div>
+        </div>
+      </div>
+      <p class="note" style="margin-top:10px;">Replace these with real reviews when you have them.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>FAQ</h2>
+        <div class="hint">Quick answers before you request pricing.</div>
+      </div>
+
+      <div class="grid2">
+        <details>
+          <summary>
+            How do you price commercial cleaning?
+            <span class="chev" aria-hidden="true">⌄</span>
+          </summary>
+          <p>
+            Pricing is based on square footage, frequency, facility type, and the scope checklist (restrooms, breakrooms,
+            touchpoints, floors, specialty areas). We’ll ask a few questions and give options.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Do you offer after-hours service?
+            <span class="chev" aria-hidden="true">⌄</span>
+          </summary>
+          <p>
+            Yes. Many clients prefer evening or overnight cleaning. We’ll align the schedule with access and security requirements.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Are you insured and bonded?
+            <span class="chev" aria-hidden="true">⌄</span>
+          </summary>
+          <p>
+            Yes. Add your coverage details here (policy limits, COI process, etc.) once you have them finalized.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            What if something is missed?
+            <span class="chev" aria-hidden="true">⌄</span>
+          </summary>
+          <p>
+            Tell us and we fix it fast. We also run scheduled inspections so issues are caught early.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section id="quote">
+    <div class="wrap">
+      <div class="sectionTitle">
+        <h2>Get your free quote</h2>
+        <div class="hint">We’ll respond with options you can choose from.</div>
+      </div>
+
+      <div class="card">
+        <form id="quoteForm" onsubmit="return handleSubmit(event)">
+          <div class="formGrid">
+            <div>
+              <label>First name</label>
+              <input required name="firstName" autocomplete="given-name" />
+            </div>
+            <div>
+              <label>Last name</label>
+              <input required name="lastName" autocomplete="family-name" />
+            </div>
+            <div>
+              <label>Phone</label>
+              <input required name="phone" autocomplete="tel" placeholder="281 330 8004" />
+            </div>
+            <div>
+              <label>Email</label>
+              <input required type="email" name="email" autocomplete="email" placeholder="name@company.com" />
+            </div>
+
+            <div>
+              <label>Zip code</label>
+              <input required name="zip" inputmode="numeric" placeholder="770xx" />
+            </div>
+            <div>
+              <label>Facility type</label>
+              <select required name="facility">
+                <option value="">Select…</option>
+                <option>Office</option>
+                <option>Warehouse / Industrial</option>
+                <option>Medical / Dental</option>
+                <option>Retail</option>
+                <option>Property Management</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label>Frequency</label>
+              <select required name="frequency">
+                <option value="">Select…</option>
+                <option>One-time deep clean</option>
+                <option>Weekly</option>
+                <option>2–3x per week</option>
+                <option>Nightly (Mon–Fri)</option>
+                <option>Custom schedule</option>
+              </select>
+            </div>
+            <div>
+              <label>Approx. square footage</label>
+              <select required name="sqft">
+                <option value="">Select…</option>
+                <option>&lt; 2,500</option>
+                <option>2,500–10,000</option>
+                <option>10,000–25,000</option>
+                <option>25,000–50,000</option>
+                <option>50,000+</option>
+              </select>
+            </div>
+
+            <div class="full">
+              <label>Notes</label>
+              <textarea name="notes" placeholder="Any special areas, compliance needs, high-traffic zones, or timing requirements?"></textarea>
+            </div>
+
+            <div class="full formFooter">
+              <button class="btn btnSolid" type="submit">Request Quote →</button>
+              <button class="btn btnGhost" type="button" onclick="prefillExample()">Fill Example</button>
+              <span id="toast" class="toast ok" role="status" aria-live="polite"></span>
+              <span class="note">No spam. We’ll only contact you about your quote.</span>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div style="height:12px"></div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Service area</h3>
+          <p>Houston • Spring • Tomball • Cypress • The Woodlands • Conroe</p>
+          <div class="mini">
+            <span class="badge">After-hours available</span>
+            <span class="badge">Recurring or one-time</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Hours</h3>
+          <p>Mon–Sat 8:00 AM – 5:00 PM<br/>After-hours cleaning by schedule</p>
+          <div class="mini">
+            <span class="badge">Fast response</span>
+            <span class="badge">Clear scope</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="footerGrid">
+        <div>
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+            <div class="mark" aria-hidden="true" style="width:34px;height:34px;border-radius:12px;"></div>
+            <div>
+              <div style="font-weight:900; color:#dbe6ff;">Realms of Exquisite Commercial Cleaning</div>
+              <div style="color:var(--muted); font-size:12px;">Documented checklists • Quality inspections • Reliable crews</div>
+            </div>
+          </div>
+          <div style="color:var(--muted);">
+            © <span id="year"></span> Realms of Exquisite Commercial Cleaning. All rights reserved.
+          </div>
+        </div>
+
+        <div>
+          <div style="font-weight:900; color:#dbe6ff; margin-bottom:8px;">Quick links</div>
+          <div class="miniLinks">
+            <a href="#services">Services</a>
+            <a href="#why">Why Us</a>
+            <a href="#process">Process</a>
+            <a href="#quote">Free Quote</a>
+            <a href="tel:+12813308004">Call</a>
+          </div>
+          <div style="margin-top:10px; color:var(--muted); font-size:12px;">
+            Replace the service area list and any placeholders with your real info.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener("click", (e) => {
+        const id = a.getAttribute("href");
+        if (!id || id === "#") return;
+        const el = document.querySelector(id);
+        if (!el) return;
+        e.preventDefault();
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.pushState(null, "", id);
+      });
+    });
+
+    // Footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    function showToast(text, ok=true){
+      const t = document.getElementById("toast");
+      t.className = "toast " + (ok ? "ok" : "bad");
+      t.textContent = text;
+      t.style.display = "inline-flex";
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => { t.style.display = "none"; }, 4500);
+    }
+
+    // Demo submit (replace with real backend)
+    function handleSubmit(e){
+      e.preventDefault();
+
+      const form = e.target;
+      const data = new FormData(form);
+
+      const required = ["firstName","lastName","phone","email","zip","facility","frequency","sqft"];
+      for (const k of required){
+        if (!String(data.get(k) || "").trim()){
+          showToast("Please complete all required fields.", false);
+          return false;
+        }
+      }
+
+      showToast("Quote request received (demo). We'll reach out shortly.");
+      form.reset();
+      return false;
+    }
+
+    function prefillExample(){
+      const f = document.getElementById("quoteForm");
+      f.firstName.value = "Jordan";
+      f.lastName.value = "S";
+      f.phone.value = "281 330 8004";
+      f.email.value = "jordan@company.com";
+      f.zip.value = "77008";
+      f.facility.value = "Office";
+      f.frequency.value = "Nightly (Mon–Fri)";
+      f.sqft.value = "2,500–10,000";
+      f.notes.value = "Main priority: restrooms + breakroom + floors. After-hours access available after 6pm.";
+      showToast("Example filled. Edit and submit.", true);
+    }
+
+    window.handleSubmit = handleSubmit;
+    window.prefillExample = prefillExample;
+  </script>
+</body>
+</html>
